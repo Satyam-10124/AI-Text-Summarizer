@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #320001; /* Dark Red background */
+  background-color: #0B0C10; /* Dark Red background */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +30,7 @@ body {
 
 /* Container styling */
 .container {
-  background-color: #450302; /* Medium Dark Red background */
+  background-color: #0c0d13; /* Medium Dark Red background */
   border-radius: 12px;
   padding: 30px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -44,7 +44,7 @@ body {
 /* Header styling */
 h1 {
   font-size: 2.5rem;
-  color: #FFFFFF; /* Bright Red color for header */
+  color: #BFBFBF; /* Bright Red color for header */
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -57,20 +57,20 @@ textarea {
   padding: 15px;
   font-size: 16px;
   border-radius: 8px;
-  border: 1px solid #B70803; /* Vibrant Red border */
+  border: 1px solid #BFBFBF; /* Vibrant Red border */
   resize: vertical;
   margin-bottom: 20px;
   outline: none;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
   position: relative; /* Ensure textarea stays on top */
   z-index: 2;
-  background-color: #630001; /* Bright Red background for textarea */
-  color: #FFFFFF; /* White text for readability */
+  background-color: #BFBFBF; /* Bright Red background for textarea */
+  color: #000; /* White text for readability */
 }
 
 textarea:focus {
-  border-color: #E81509; /* Focus border color */
-  box-shadow: 0 0 8px rgba(232, 21, 9, 0.6); /* Focus box-shadow */
+  border-color: #6B6B6B; /* Focus border color */
+  box-shadow: 0 0 8px #6B6B6B; /* Focus box-shadow */
   animation: pulse 0.8s ease-out infinite;
 }
 
@@ -122,7 +122,7 @@ button:active {
 
 /* New styles to differentiate the input text and generated text */
 #input-text {
-  background-color: #630001; /* Bright Red background */
+  background-color: #6B6B6B; /* Bright Red background */
   color: #FFFFFF; /* White text color for readability */
 }
 
