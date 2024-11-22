@@ -57,14 +57,14 @@ textarea {
   padding: 15px;
   font-size: 16px;
   border-radius: 8px;
-  border: 1px solid #BFBFBF; /* Vibrant Red border */
+  border: 1px solid #34207E; /* Vibrant Red border */
   resize: vertical;
   margin-bottom: 20px;
   outline: none;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
   position: relative; /* Ensure textarea stays on top */
   z-index: 2;
-  background-color: #BFBFBF; /* Bright Red background for textarea */
+  background-color: #FFFFFF; /* Bright Red background for textarea */
   color: #000; /* White text for readability */
 }
 
