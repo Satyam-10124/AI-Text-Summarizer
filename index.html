@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Text Summarization</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AOS (Animate On Scroll) Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Toastify for Notifications -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.12.0/Toastify.min.css">
+
+  <!-- TSParticles.js for Particle Animations -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.37.1"></script>
+</head>
+<body>
+
+  <!-- Particles Container -->
+  <div id="tsparticles"></div>
+
+  <div class="container" data-aos="fade-up">
+    <h1 data-aos="fade-down">AI Text Summarization</h1>
+
+    <!-- Textarea for Summarization -->
+    <textarea id="input-text" placeholder="Enter your text here..." rows="10" cols="50" data-aos="zoom-in-up"></textarea>
+    <button id="summarize-btn" data-aos="zoom-in-down">Summarize Text</button>
+
+    <h2 data-aos="fade-left">Summary:</h2>
+    <div id="summary-output" class="summary-output" data-aos="fade-left"></div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    // Initialize AOS (Animate on Scroll)
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true
+    });
+
+    // Initialize particles.js for the background effect
+    tsParticles.load("tsparticles", {
+      particles: {
+        number: {
+          value: 80,
+          density: {
+            enable: true,
+            value_area: 800
+          }
+        },
+        color: {
+          value: "#ffcc00" // Yellow color for particles
+        },
+        shape: {
+          type: "circle"
+        },
+        opacity: {
+          value: 0.5,
+          random: true,
+          anim: {
+            enable: true,
+            speed: 1,
+            opacity_min: 0.1
+          }
+        },
+        size: {
+          value: 3,
+          random: true
+        },
+        links: {
+          enable: true,
+          distance: 150,
+          color: "#ffcc00",
+          opacity: 0.4,
+          width: 1
+        },
+        move: {
+          enable: true,
+          speed: 2,
+          direction: "none",
+          random: true,
+          straight: false,
+          out_mode: "out"
+        }
+      }
+    });
+  </script>
+</body>
+</html>
