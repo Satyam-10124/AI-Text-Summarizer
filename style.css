@@ -1,98 +1,98 @@
 /* General Reset */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  overflow: hidden;
-}
-
-/* Particle Background Styling */
-#tsparticles {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
-/* Container Styling */
-.container {
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 40px;
-  border-radius: 15px;
-  text-align: center;
-  width: 90%;
-  max-width: 700px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-}
-
-/* Header Styling */
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: #f39c12;
-}
-
-/* Textarea Styling */
-textarea {
-  width: 100%;
-  padding: 15px;
-  font-size: 16px;
-  border: none;
-  border-radius: 8px;
-  outline: none;
-  resize: none;
-  background: linear-gradient(90deg, #ff7f7f, #ffb7b7);
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  animation: gradientShift 3s infinite ease-in-out;
-}
-
-/* Button Styling */
-button {
-  background-color: #f39c12;
-  color: black;
-  padding: 15px 30px;
-  font-size: 18px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-top: 20px;
-  transition: transform 0.2s, background-color 0.3s;
-}
-
-button:hover {
-  background-color: #d35400;
-  transform: translateY(-5px);
-}
-
-/* Summary Output Styling */
-#summary-output {
-  margin-top: 20px;
-  background: linear-gradient(90deg, #ff7f7f, #ffb7b7);
-  padding: 20px;
-  border-radius: 8px;
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  animation: gradientShift 3s infinite ease-in-out;
-}
-
-/* Animations */
-@keyframes gradientShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Particle Background Styling */
+  #tsparticles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  /* Container Styling */
+  .container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 90%;
+    max-width: 700px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Header Styling */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f39c12;
+  }
+  
+  /* Textarea Styling */
+  textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    resize: none;
+    background: linear-gradient(90deg, #ff7f7f, #ffb7b7);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: gradientShift 3s infinite ease-in-out;
+  }
+  
+  /* Button Styling */
+  button {
+    background-color: #f39c12;
+    color: black;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #d35400;
+    transform: translateY(-5px);
+  }
+  
+  /* Summary Output Styling */
+  #summary-output {
+    margin-top: 20px;
+    background: linear-gradient(90deg, #ff7f7f, #ffb7b7);
+    padding: 20px;
+    border-radius: 8px;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: gradientShift 3s infinite ease-in-out;
+  }
+  
+  /* Animations */
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
